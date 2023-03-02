@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:id="@+id/logo_up"
+            android:src="@drawable/ic_device_hub_white_64dp"
+            android:tint="@color/colorPrimary"/>
+
+
+
+    </FrameLayout>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="CEO Edition"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_large"
+        android:visibility="gone"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEDGERS"
+        android:padding="@dimen/spacing_small"
+        android:visibility="gone"
+        android:id="@+id/appname"
+        android:textSize="@dimen/text_xlarge"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/spacing_middle"
+        android:textColor="@color/colorPrimary"/>
+
+</LinearLayout>

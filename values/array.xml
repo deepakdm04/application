@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="sample_images">
+        <item>@drawable/breakfast</item>
+        <item>@drawable/breakfast</item>
+        <item>@drawable/breakfast</item>
+        <item>@drawable/breakfast</item>
+        <item>@drawable/breakfast</item>
+    </integer-array>
+    <string-array name="lunch">
+        <item>Appetizer</item>
+        <item>Breakfast</item>
+        <item>Burger</item>
+        <item>Coffee Section</item>
+        <item>Dessert</item>
+        <item>Fresh Juices</item>
+        <item>Ice tea</item>
+        <item>Milkshake</item>
+        <item>Mocktails</item>
+        <item>Mojito</item>
+        <item>Pasta</item>
+        <item>Salad</item>
+        <item>Special coffee</item>
+    </string-array>
+
+    <integer-array name="lunch_img">
+        <item>@drawable/cheese_balls</item>
+        <item>@drawable/egg_and_cheese</item>
+        <item>@drawable/classic_burger</item>
+        <item>@drawable/cappucino</item>
+        <item>@drawable/candy_blue_lagoon</item>
+        <item>@drawable/fresh_green_apple_juice</item>
+        <item>@drawable/berry_melon_ice_tea</item>
+        <item>@drawable/chocolate_milkshake</item>
+        <item>@drawable/peachy_apple</item>
+        <item>@drawable/berry_pomegranate_mojito</item>
+        <item>@drawable/arabiatta</item>
+        <item>@drawable/fatush_salad</item>
+        <item>@drawable/blue_sky_latte</item>
+    </integer-array>
+
+
+    <string-array name="snacks">
+        <item>Biscuit</item>
+        <item>Bajji</item>
+        <item>Bread omelet</item>
+        <item>Bread sandwich</item>
+        <item>Samosa</item>
+    </string-array>
+
+
+    <integer-array name="dashboard_images">
+        <item>@drawable/breakfast</item>
+        <item>@drawable/lunch</item>
+        <item>@drawable/snacks</item>
+        <item>@drawable/dinner</item>
+    </integer-array>
+
+    <string-array name="dashboard">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Snacks</item>
+        <item>Dinner</item>
+    </string-array>
+
+    <!--category names -->
+
+    <string-array name="appetizer">
+        <item>Cheese Balls</item>
+        <item>Egg Plant</item>
+        <item>Risotto Balls</item>
+        <item>Shrimpholic</item>
+        <item>Spicy Chx Sticks</item>
+    </string-array>
+
+    <string-array name="breakfast">
+        <item>Balalith</item>
+        <item>Egg &amp; Cheese</item>
+        <item>Egg &amp; Cheese 2</item>
+        <item>Egg Benedict</item>
+        <item>Egg Sand</item>
+        <item>Falafel Cashew</item>
+        <item>Halloumi and Zatar Toast</item>
+        <item>Keema</item>
+        <item>Labneh with Zatar</item>
+        <item>Liver</item>
+        <item>Liver Sand</item>
+    </string-array>
+
+    <string-array name="burger">
+        <item>Cheetos Chx Sand</item>
+        <item>Classic Burger</item>
+        <item>Cordon Blue</item>
+        <item>Sandwich</item>
+        <item>Slider Trio</item>
+        <item>Toasty Burger</item>
+        <item>Upside Down</item>
+    </string-array>
+
+    <string-array name="coffee_section">
+        <item>Americano</item>
+        <item>Cappucino</item>
+        <item>Cortado</item>
+        <item>Expresso</item>
+        <item>Flat White</item>
+        <item>Hot Chocolate</item>
+        <item>Hot Mocha</item>
+        <item>Ice Americano</item>
+        <item>Ice Cappucino</item>
+        <item>Ice Cappucino 2</item>
+        <item>Ice Latte</item>
+        <item>Late</item>
+    </string-array>
+
+    <string-array name="dessert">
+        <item>Candy Blue Lagoon</item>
+        <item>Caramel Tart</item>
+        <item>Choco Ice Cream Cake</item>
+        <item>French Toast</item>
+        <item>Lemon Cake</item>
+        <item>Lotus Cheese Cake</item>
+        <item>Pistachio Milk Cake</item>
+        <item>Pistachio Tart</item>
+        <item>Red Velvet Cake</item>
+        <item>Saffron Milk Cake</item>
+        <item>Valo Kinder Cookie</item>
+        <item>Valo Kinder Cookie 2</item>
+    </string-array>
+
+    <string-array name="fresh_juices">
+        <item>Fresh Green Apple Juice</item>
+        <item>Fresh Mango Juice</item>
+        <item>Fresh Orange Juice</item>
+        <item>Minted Lemonade</item>
+    </string-array>
+
+    <string-array name="ice_tea">
+        <item>Berry Melon Ice Tea</item>
+        <item>Bluish Ice Tea</item>
+        <item>Ice Tea Granade</item>
+        <item>Passion Ice Tea</item>
+        <item>Peach Ice Tea</item>
+    </string-array>
+
+    <string-array name="milkshake">
+        <item>Chocolate MilkShake</item>
+        <item>Kitkat MilkShake</item>
+        <item>Oreo MilkShake</item>
+    </string-array>
+
+    <string-array name="mocktails">
+        <item>Peachy Apple</item>
+        <item>Pineapple Crusher</item>
+        <item>Sunrise</item>
+    </string-array>
+
+    <string-array name="mojito">
+        <item>Berry Pomegranate Mojito</item>
+        <item>Passion Fruit Mojito</item>
+        <item>Tri Berry Mojito</item>
+    </string-array>
+
+    <string-array name="pasta">
+        <item>Arabiatta</item>
+        <item>Creamy Chesse Penni</item>
+        <item>Macaroni Bechamel</item>
+        <item>Pesto Pasta</item>
+        <item>Tagliateli Pasta</item>
+    </string-array>
+
+    <string-array name="salad">
+        <item>Fatush Salad</item>
+        <item>Kale and Nuts Salad</item>
+        <item>Valo Salad</item>
+    </string-array>
+
+    <string-array name="special_coffee">
+        <item>Blue Sky Latte</item>
+        <item>Crushed Bites Latte</item>
+        <item>Honey Latte</item>
+        <item>Ice Rose Latte</item>
+        <item>Ice Crushed Bites Latte</item>
+        <item>Iced Honey Latte</item>
+        <item>Iced Red Velvet Latte</item>
+        <item>Iced Spanich Latte</item>
+        <item>Iced Spicy Latte</item>
+        <item>Red Velvet Latte</item>
+        <item>Rose Latte</item>
+        <item>Spanish Latte</item>
+        <item>Spicy Latte</item>
+        <item>Valo Signature 1</item>
+        <item>Valo Signature 2</item>
+        <item>White Mocha</item>
+    </string-array>
+
+    <!--category images -->
+
+    <integer-array name="appetizer_img">
+        <item>@drawable/cheese_balls</item>
+        <item>@drawable/egg_plant</item>
+        <item>@drawable/risotto_balls</item>
+        <item>@drawable/shrimpholic</item>
+        <item>@drawable/spicy_chx_sticks</item>
+    </integer-array>
+
+    <integer-array name="breakfast_img">
+        <item>@drawable/balalith</item>
+        <item>@drawable/egg_and_cheese</item>
+        <item>@drawable/egg_and_cheese2</item>
+        <item>@drawable/egg_benedict</item>
+        <item>@drawable/egg_sand</item>
+        <item>@drawable/falafel_cashew</item>
+        <item>@drawable/halloumi_and_zatar_toast</item>
+        <item>@drawable/keema</item>
+        <item>@drawable/labneh_with_zatar</item>
+        <item>@drawable/liver</item>
+        <item>@drawable/liver_sand</item>
+    </integer-array>
+
+    <integer-array name="burger_img">
+        <item>@drawable/cheetos_chx_sand</item>
+        <item>@drawable/classic_burger</item>
+        <item>@drawable/cordon_blue</item>
+        <item>@drawable/sandwich</item>
+        <item>@drawable/slider_trio</item>
+        <item>@drawable/toasty_burger</item>
+        <item>@drawable/upside_down</item>
+    </integer-array>
+
+    <integer-array name="coffee_section_img">
+        <item>@drawable/americano</item>
+        <item>@drawable/cappucino</item>
+        <item>@drawable/cortado</item>
+        <item>@drawable/expresso</item>
+        <item>@drawable/flat_white</item>
+        <item>@drawable/hot_chocolate</item>
+        <item>@drawable/hot_mocha</item>
+        <item>@drawable/ice_americano</item>
+        <item>@drawable/ice_cappucino</item>
+        <item>@drawable/ice_cappucino2</item>
+        <item>@drawable/ice_latte</item>
+        <item>@drawable/late</item>
+    </integer-array>
+
+    <integer-array name="dessert_img">
+        <item>@drawable/candy_blue_lagoon</item>
+        <item>@drawable/caramel_tart</item>
+        <item>@drawable/choco_ice_cream_cake</item>
+        <item>@drawable/french_toast</item>
+        <item>@drawable/lemon_cake</item>
+        <item>@drawable/lotus_cheese_cake</item>
+        <item>@drawable/pistachio_milk_cake</item>
+        <item>@drawable/pistachio_tart</item>
+        <item>@drawable/red_velvet_cake</item>
+        <item>@drawable/saffron_milk_cake</item>
+        <item>@drawable/valo_kinder_cookie</item>
+        <item>@drawable/valo_kinder_cookie2</item>
+    </integer-array>
+
+    <integer-array name="fresh_juices_img">
+        <item>@drawable/fresh_green_apple_juice</item>
+        <item>@drawable/fresh_mango_juice</item>
+        <item>@drawable/fresh_orange_juice</item>
+        <item>@drawable/minted_lemonade</item>
+    </integer-array>
+
+    <integer-array name="ice_tea_img">
+        <item>@drawable/berry_melon_ice_tea</item>
+        <item>@drawable/bluish_ice_tea</item>
+        <item>@drawable/ice_tea_granade</item>
+        <item>@drawable/passion_ice_tea</item>
+        <item>@drawable/peach_ice_tea</item>
+    </integer-array>
+
+    <integer-array name="milkshake_img">
+        <item>@drawable/chocolate_milkshake</item>
+        <item>@drawable/kitkat_milkshake</item>
+        <item>@drawable/oreo_milkshake</item>
+    </integer-array>
+
+    <integer-array name="mocktails_img">
+        <item>@drawable/peachy_apple</item>
+        <item>@drawable/pineapple_crusher</item>
+        <item>@drawable/sunrise</item>
+    </integer-array>
+
+    <integer-array name="mojito_img">
+        <item>@drawable/berry_pomegranate_mojito</item>
+        <item>@drawable/passion_fruit_mojito</item>
+        <item>@drawable/tri_berry_mojito</item>
+    </integer-array>
+
+    <integer-array name="pasta_img">
+        <item>@drawable/arabiatta</item>
+        <item>@drawable/creamy_cheese_penni</item>
+        <item>@drawable/macaroni_bechamel</item>
+        <item>@drawable/pesto_pasta</item>
+        <item>@drawable/tagliateli_pasta</item>
+    </integer-array>
+
+    <integer-array name="salad_img">
+        <item>@drawable/fatush_salad</item>
+        <item>@drawable/kale_and_nuts_salad</item>
+        <item>@drawable/valo_salad</item>
+    </integer-array>
+
+    <integer-array name="special_coffee_img">
+        <item>@drawable/blue_sky_latte</item>
+        <item>@drawable/crushed_bites_latte</item>
+        <item>@drawable/honey_latte</item>
+        <item>@drawable/ice_rose_latte</item>
+        <item>@drawable/iced_crushed_bites_latte</item>
+        <item>@drawable/iced_honey_latte</item>
+        <item>@drawable/iced_red_velvet_latte</item>
+        <item>@drawable/iced_spanich_latte</item>
+        <item>@drawable/iced_spicy_latte</item>
+        <item>@drawable/red_velvet_latte</item>
+        <item>@drawable/rose_latte</item>
+        <item>@drawable/spanish_latte</item>
+        <item>@drawable/spicy_latte</item>
+        <item>@drawable/valo_signature_1</item>
+        <item>@drawable/valo_signature_2</item>
+        <item>@drawable/white_mocha</item>
+    </integer-array>
+
+
+
+</resources>

@@ -1,0 +1,43 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16sp</dimen>
+    <dimen name="activity_vertical_margin">16sp</dimen>
+    <dimen name="nav_header_vertical_spacing">8sp</dimen>
+    <dimen name="nav_header_height">176sp</dimen>
+    <dimen name="fab_margin">16sp</dimen>
+
+    <dimen name="spacing_xsmall">4sp</dimen>
+    <dimen name="spacing_small">6sp</dimen>
+    <dimen name="spacing_medium">10sp</dimen>
+    <dimen name="spacing_xmedium">14sp</dimen>
+    <dimen name="spacing_middle">20sp</dimen>
+    <dimen name="spacing_large">30sp</dimen>
+    <dimen name="spacing_smlarge">36sp</dimen>
+    <dimen name="spacing_mlarge">40sp</dimen>
+    <dimen name="spacing_mxlarge">50sp</dimen>
+    <dimen name="spacing_xlarge">70sp</dimen>
+    <dimen name="spacing_xmlarge">80sp</dimen>
+    <dimen name="spacing_xxlarge">100sp</dimen>
+    <dimen name="spacing_xxxlarge">110sp</dimen>
+
+    <dimen name="text_xsmall">4sp</dimen>
+    <dimen name="text_small">6sp</dimen>
+    <dimen name="text_medium">10sp</dimen>
+    <dimen name="text_xmedium">14sp</dimen>
+    <dimen name="text_middle">20sp</dimen>
+    <dimen name="text_xmiddle">24sp</dimen>
+    <dimen name="text_large">30sp</dimen>
+    <dimen name="text_smlarge">36sp</dimen>
+    <dimen name="text_mlarge">40sp</dimen>
+    <dimen name="text_mxlarge">50sp</dimen>
+    <dimen name="text_xlarge">70sp</dimen>
+    <dimen name="text_xmlarge">80sp</dimen>
+    <dimen name="text_xxlarge">100sp</dimen>
+    <dimen name="text_xxxlarge">110sp</dimen>
+
+    <dimen name="appbar_padding_top">16sp</dimen>
+
+    <dimen name="imag_size">100sp</dimen>
+
+    <dimen name="viewsize">180sp</dimen>
+</resources>

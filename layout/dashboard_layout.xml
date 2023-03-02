@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_medium"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:visibility="visible">
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/breakfast_mat"
+                style="@style/RippleStyleBlack"
+                android:layout_margin="@dimen/spacing_medium"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="150dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:foreground="@color/overlay_dark_10"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/breakfast" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:background="@color/overlay_dark_40"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/spacing_xmedium">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="@string/breakfast"
+                            android:textColor="@android:color/white" />
+
+                        <View
+                            android:layout_width="@dimen/spacing_large"
+                            android:layout_height="0dp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/lunch_mat"
+                style="@style/RippleStyleBlack"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/spacing_medium"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:foreground="@color/overlay_dark_10"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/lunch" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:background="@color/overlay_dark_40"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/spacing_xmedium">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text="@string/lunch"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:textColor="@android:color/white" />
+
+                        <View
+                            android:layout_width="@dimen/spacing_large"
+                            android:layout_height="0dp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_medium"
+            android:visibility="visible">
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/snacks_mat"
+                style="@style/RippleStyleBlack"
+                android:layout_margin="@dimen/spacing_medium"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="150dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:foreground="@color/overlay_dark_10"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/snacks" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:background="@color/overlay_dark_40"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/spacing_xmedium">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text="@string/snacks"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:textColor="@android:color/white" />
+
+                        <View
+                            android:layout_width="@dimen/spacing_large"
+                            android:layout_height="0dp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/dinner_mat"
+                style="@style/RippleStyleBlack"
+                android:layout_margin="@dimen/spacing_medium"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="150dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:foreground="@color/overlay_dark_10"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/dinner" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:background="@color/overlay_dark_40"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/spacing_xmedium">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text="@string/dinner"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:textColor="@android:color/white" />
+
+                        <View
+                            android:layout_width="@dimen/spacing_large"
+                            android:layout_height="0dp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/spacing_xmedium"
+        android:scrollbars="vertical"
+        android:scrollingCache="true" />
+
+</LinearLayout>
+

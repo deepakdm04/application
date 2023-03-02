@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="dark">
+        <attr name="backgroundColors" format="color"/>
+        <attr name="textColors" format="color"/>
+        <attr name="navActive" format="color"/>
+        <attr name="navInActive" format="color"/>
+        <attr name="headerDivider" format="color"/>
+        <attr name="cardBackground" format="color"/>
+        <attr name="cardTransparent" format="color"/>
+        <attr name="buttonCorner" format="color"/>
+        <attr name="textColorSecondary" format="color"/>
+        <attr name="beta" format="color"/>
+    </declare-styleable>
+</resources>
